@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+header .container {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 16px;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color: #333333;
+    font-family: 'Fira Code', monospace;
+    color: #FFF;
+}
+
+header a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+header ul a:hover {
+    border-bottom: 2px solid #FFF;
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+}
+
+/* Inicio Sessão Principal */
+
+section .container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px auto;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+section h1 {
+    font-size: 6rem;
+}
+
+.deco {
+    position: relative;
+}
+
+.deco::before {
+    content: ' ';
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    background-color: #264A99;
+    position: absolute;
+    top: 81px;
+    left: -13px;
+}
+
+#sobre-mim,
+#habilidades{
+    background-color: #333333;
+    color: #fff;
+    height: 50vh;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.conteudo-sobre {
+    width: 650px;
+    margin-top: 85px;
+}
+
+
+.conteudo-sobre p{
+    text-align: justify;
+   
+}
+/* Fim sobre mim */
+
+/* Inicio Habilidades */
+
+#habilidades {
+    border-top: 2px solid #264A99;
+}
+
+.habilidades {
+    text-align: center;
+}
+
+.habilidades h2 {
+    font-size: 3rem;
+    margin: 50px 0 20px;
+}
+
+.habilidades ul{
+    display: flex;
+    align-items: center;
+}
+
+.habilidades img {
+    display: inline-block;
+    width: 80%;
+}
+/* Fim habilidades */
+
+/* Início contato */
+
+
+.contatos h2{
+    text-align: center;
+}
+
+.contatos form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contatos input {
+    margin: 10px 0;
+    padding: 15px;
+    width: 500px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+button {
+    width: 500px;
+    padding: 15px;
+    border: none;
+    background-color: #264A99;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.25rem;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #407BFF;
+    cursor: pointer;
+}
+
+/* Fim contatos */
+
+/* Inicio footer */
+
+footer {
+    background-color: #333333;
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;;
+}
